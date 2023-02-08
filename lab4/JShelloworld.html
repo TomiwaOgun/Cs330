@@ -1,0 +1,39 @@
+<!DOCTYPE html>  
+<html>
+<head>
+   <script type="text/javascript">
+      <!--
+      //A normal JS statement
+      //executes when loading the page. 
+      document.write("Hello world.<br />");
+
+      //...
+
+      //Definition of a JavaScript function
+      // This function will not execute while loading,
+      // until being called.
+
+      function write_hello(){
+         //You can use .write() function to write
+         // HTML source code to the browser
+         document.write("Hello CS215!!!<br />");
+      }
+
+      function AFunction()
+      {
+       alert("<p>Hello CS215!</p>");
+      }
+      //-->
+   </script>
+</head>
+<body>
+    <script type="text/javascript">
+      <!--
+      //Invoke the function defined early.
+      write_hello();
+
+      //-->
+    </script>
+    <button onclick="AFunction()">Try it</button>
+</body>
+</html>

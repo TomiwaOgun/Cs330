@@ -1,0 +1,41 @@
+body {
+    background-color:linen;
+  }
+
+  h2 {font-family: 'Times New Roman', Times, serif;}
+
+  #local_style {background-color: #dddddd; border:thin dotted #AAAAAA;}
+
+  .evenRow {background-color: pink;}
+
+  ol {
+    list-style-type: upper-roman;
+  }
+
+  table {
+      border-style: solid;
+      border-collapse: collapse;
+  }
+
+  td {
+    text-align: center;
+  }
+
+  a:link {
+    color: #FF0000;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #00FF00;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #FF00FF;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #0000FF;
+  }
